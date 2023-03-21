@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(7, 7, 29);
+    color: whitesmoke;
+}
+
+span {
+    color: purple;
+}
+
+.espaçamento {
+    margin: 150px 0;
+}
+
+header {
+    position:fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+#inicio img {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-pills .nav-link.active,
+.nav-link {
+    color: whitesmoke;
+    background-color: rgb(75, 0, 124);
+}
+
+.accordion-item {
+    --bs-accordion-border-color: rgba(36, 36, 36, 0.699);
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+footer a {
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+}
